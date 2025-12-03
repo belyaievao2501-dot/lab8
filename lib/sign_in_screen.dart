@@ -107,7 +107,7 @@ class _SignInScreenState extends State<SignInScreen> {
                     onPressed: () {
                       if (_formKey.currentState!.validate()) {
                         ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(content: Text('Дані валідні. Виконується вхід...')),
+                          const SnackBar(content: Text('Виконується вхід...')),
                         );
                       }
                     },
